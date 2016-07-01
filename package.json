@@ -1,0 +1,23 @@
+{
+  "name": "openshift-cli",
+  "version": "1.0.1",
+  "description": "Openshift V3 cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "oc": "bin/commit.js"
+  },
+  "keywords": [
+    "Openshift",
+    "cli",
+    "ose",
+    "containers"
+  ],
+  "author": "Chakradhar Rao Jonagam",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.7.0"
+  }
+}
