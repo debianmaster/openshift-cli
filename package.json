@@ -4,10 +4,12 @@
   "description": "Openshift V3 cli",
   "main": "index.js",
   "scripts": {
+    "preinstall": "./scripts/install.js",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
     "test": "npm test"
   },
   "bin": {
-    "oc": "bin/commit.js"
+    "oc": "assets/extracted/oc"
   },
   "keywords": [
     "Openshift",
@@ -18,6 +20,10 @@
   "author": "Chakradhar Rao Jonagam",
   "license": "ISC",
   "dependencies": {
-    "shelljs": "^0.7.0"
+    "adm-zip": "^0.4.7",
+    "http": "0.0.0",
+    "request": "^2.74.0",
+    "shelljs": "^0.7.0",
+    "unzip": "^0.1.11"
   }
 }
