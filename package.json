@@ -1,6 +1,6 @@
 {
   "name": "openshift-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Openshift V3 cli",
   "main": "index.js",
   "scripts": {
