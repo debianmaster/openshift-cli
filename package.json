@@ -20,10 +20,7 @@
   "author": "Chakradhar Rao Jonagam",
   "license": "ISC",
   "dependencies": {
-    "adm-zip": "^0.4.7",
-    "http": "0.0.0",
     "request": "^2.74.0",
-    "shelljs": "^0.7.0",
     "unzip": "^0.1.11"
   }
 }
