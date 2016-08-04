@@ -4,7 +4,7 @@
   "description": "Openshift V3 cli",
   "main": "index.js",
   "scripts": {
-    "preinstall": "./scripts/install.js",
+    "preinstall": "npm install request@2.74.0 unzip@0.1.11 && ./scripts/install.js",
     "patch-release": "npm version patch && npm publish && git push --follow-tags",
     "test": "npm test"
   },
